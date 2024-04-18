@@ -1,0 +1,125 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(235, 235, 235);
+    
+}
+main{
+    width: 100%;
+    display:flex ;
+    flex-direction: row;
+    background-color: rgb(235, 235, 235);
+}
+
+main .card{
+    width: 100%;
+    min-height: 640px;
+    text-align: center;
+    height: 95%;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .card .image_side{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 720px;
+    align-content: center ;
+    justify-content: center;
+}
+
+main .card .image_side img{
+    width: 80%;
+    margin: 12px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px gray;
+
+}
+
+main .card .image_main{
+    width: 35%;
+    align-content: center;
+    justify-content: center;
+}
+
+main .card .image_main img{
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+main .card .caption{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    line-height: 3em;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding-top: 64px;
+}
+
+main .product_name{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 9px;
+    text-align: center;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    margin-bottom: 32px;  
+}
+
+main .destination{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight:bold;
+}
+
+main .information{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    width: 350px;
+    margin-left: 25%;
+    justify-self: center;
+    font-size: 2rem;
+}
+
+main .price{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main button{
+
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    border: none;
+    width: 40%;
+    font-size: 2rem;
+    height: 42px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-left:10%;
+    margin-top: 64px;
+    cursor: pointer;
+}

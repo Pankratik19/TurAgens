@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  html{
+      font-size: 62.5%;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      background-color:#fff ;
+  }
+  
+  #upload_container{
+      margin-left: 25%;
+      margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      min-height: 100vh;
+      flex: 1;
+  }
+  
+  #upload_container form{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #upload_container form input{
+      padding: 8px;
+      outline: none;
+      border: 1px solid rgb(148, 172, 208);
+      margin-bottom: 8px;
+  }
+  
+  
+  #upload_container form input[type="submit"]{
+      padding: 8px;
+      outline: none;
+      background-color: rgb(148, 172, 208);
+      border: none;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      cursor: pointer;
+  }
+  
+  #upload_container form input[type="submit"]:hover{
+      background-color: whitesmoke;
+      cursor: pointer;
+      transition: all .5s;
+       border: 1px solid rgb(148, 172, 208);
+  }

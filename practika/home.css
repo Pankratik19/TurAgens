@@ -1,0 +1,102 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: whitesmoke;
+}
+main{
+    max-width: 1500px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    min-height: 800px;
+   
+}
+
+
+
+main .card{
+    max-width: 300px;
+    min-width: 300px;
+    flex: 1 1 210px;
+    text-align: center;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 20px;
+    border-radius: 6px;
+}
+
+main .card .image{
+    height: 60%;
+    margin-bottom: 20px;
+}
+
+main .card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .card .caption{
+    padding-left: 1em;
+    text-align: left;
+    line-height: 3em;
+    height: 16%;
+}
+
+main .card a{
+    width: 50%;
+}
+
+
+main .card .caption p{
+    font-size: 1.5rem;
+
+}
+
+main .card button {
+    border: 2px solid rgb(0, 0, 0);
+    color: whitesmoke;
+    background-color: black;
+    padding: 1em;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 2em;
+    font-weight: bold;
+    position: relative;
+}
+
+.uup{
+    width: 100%;
+    margin-top: 12px;
+    
+    
+}
+
+.img_upload img{
+  width: 24px;
+  height: 24px;
+
+}
+
+.img_update img{
+    width: 24px;
+    height: 24px;
+}
+
+.img_delete img{
+    width: 24px;
+    height: 24px;
+}

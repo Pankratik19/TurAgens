@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color:whitesmoke;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 6px;
+    box-shadow: 1px 1px 1px 1px rgb(107, 107, 107);
+}
+header a{
+    position: relative;
+    font-size: 2rem;
+}
+
+.main_tabs{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+header  input
+{
+    outline: none;
+    border: 1px solid black;
+    height: 32px;
+    padding-left: 4px;
+    width: 480px;
+    border-radius: 8px;
+    margin-right: 10px; /* Adjust margin as needed */
+    display: block; 
+    background-color: whitesmoke;
+
+}
+
+header form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .search{
+    margin-top: 18px;
+}
+
+header button[type="submit"]{
+    
+    border: none;   
+    display: block;  
+}
+
+.img_home{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.img_cart{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.img_home img{
+    height: 65%;
+}
+
+.img_cart img{
+    height: 65%;
+    margin-right: 24px;
+}
+
+header .title{
+    width: 30%;
+    margin-left: 60px;
+}
